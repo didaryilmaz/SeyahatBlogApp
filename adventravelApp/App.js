@@ -1,33 +1,97 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
-import 'react-native-gesture-handler';
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-import OnBoardScreen from './src/views/screens/OnBoardScreen';
-import HomeScreen from './src/views/screens/HomeScreen';
-import DetailsScreen from './src/views/screens/DetailsScreen';
-const Stack = createStackNavigator();
+import { StyleSheet, Text, TextInput, View, Button } from 'react-native';
+import StartPage from './src/components/StartPage';
 
-const App = () => {
+const App = () =>{
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = () => {
+  };
+  const handleForgotPassword = () => {
+  };
+  const handleCreateAccount = () => {
+  };
+
   return (
-  <NavigationContainer>
-    <Stack.Navigator screenOptions={{headerShown: false}}>
-      <Stack.Screen name="OnBoardScreen" component={OnBoardScreen}></Stack.Screen>
-      <Stack.Screen name="HomeScreen" component={HomeScreen}></Stack.Screen>
-      <Stack.Screen name="DetailsScreen" component={DetailsScreen}></Stack.Screen>
-    </Stack.Navigator>
-  </NavigationContainer>
-  );
-};
-
-export default  App;
+    <View style={styles.container}>
+      <TextInput
+        style={styles.input}
+        placeholder="Email"
+        value={email}
+        onChangeText={(text) => setEmail(text)}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="Şifre"
+        secureTextEntry={true}
+        value={password}
+        onChangeText={(text) => setPassword(text)}
+      />
+      <View style={styles.rememberMe}>
+        <Checkbox
+          value={rememberMe}
+          onValueChange={setRememberMe}
+        />
+        <Text style={styles.rememberMeText}>Beni Hatırla</Text>
+      </View>
+      <Button title="Giriş" onPress={handleLogin} />
+      <View style={styles.forgotPassword}>
+        <Text style={styles.forgotPasswordText} onPress={handleForgotPassword}>
+          Şifreni mi Unuttun?
+        </Text>
+      </View>
+      <View style={styles.createAccount}>
+        <Text style={styles.createAccountText} onPress={handleCreateAccount}>
+          Yeni Hesap Oluştur
+        </Text>
+      </View>
+    </View>
+  )
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
   },
+  input: {
+    width: 300,
+    height: 40,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 5,
+    padding: 10,
+    marginBottom: 10,
+  },
+  rememberMe: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  rememberMeText: {
+    fontSize: 12,
+    color: '#888',
+  },
+  forgotPassword: {
+    fontSize: 12,
+    color: '#888',
+    marginTop: 10,
+  },
+  forgotPasswordText: {
+    color: "#000",
+    textDecorationLine: "underline",
+  },
+  createAccount: {
+    fontSize: 12,
+    color: '#888',
+    marginTop: 10,
+  },
+  createAccountText: {
+    color: "#000",
+    textDecorationLine: "underline",
+  }
 });
+
+export default  App;
