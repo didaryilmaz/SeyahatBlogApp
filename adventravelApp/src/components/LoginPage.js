@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { 
   StyleSheet, 
   Text, 
   TextInput, 
   View, 
-  Button 
+  Button,
+  Checkbox
 } from 'react-native';
 
 const LoginPage = () =>{
