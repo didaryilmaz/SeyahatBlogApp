@@ -5,11 +5,20 @@ import {
 } from 'react-native';
 import LoginPage from './src/components/LoginPage';
 import SignUpPage from './src/components/SignUpPage';
+import MainPage from './src/components/MainPage';
+
 const App = () =>{
   return (
     <View style={styles.container}>
-      <LoginPage/>
-      <SignUpPage/>
+      <div>
+        <LoginPage/>
+      </div>
+      <div>
+        <SignUpPage />
+      </div>
+      <div>
+        <MainPage />
+      </div>
     </View>
   )
 }
