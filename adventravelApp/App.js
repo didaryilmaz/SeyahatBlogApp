@@ -6,6 +6,7 @@ import {
 import LoginPage from './src/components/LoginPage';
 import SignUpPage from './src/components/SignUpPage';
 import MainPage from './src/components/MainPage';
+import MenuBtn from 'src/components/MenuBtn.js';
 
 const App = () =>{
   return (
@@ -18,6 +19,9 @@ const App = () =>{
       </div>
       <div>
         <MainPage />
+      </div>
+      <div>
+        <MenuBtn />
       </div>
     </View>
   )
