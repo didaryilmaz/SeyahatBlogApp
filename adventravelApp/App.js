@@ -1,29 +1,24 @@
 import React, { useState } from 'react';
 import { 
+  SafeAreaView,
   StyleSheet, 
-  View, 
+  ScrollView
 } from 'react-native';
 import LoginPage from './src/components/LoginPage';
+import Hakkimizda from './src/components/Hakkimizda';
 import SignUpPage from './src/components/SignUpPage';
 import MainPage from './src/components/MainPage';
-import MenuBtn from 'src/components/MenuBtn.js';
+import MenuBtn from './src/components/MenuBtn';
 
 const App = () =>{
   return (
-    <View style={styles.container}>
-      <div>
+    <SafeAreaView style={styles.container}>
+      <ScrollView>
         <LoginPage/>
-      </div>
-      <div>
-        <SignUpPage />
-      </div>
-      <div>
-        <MainPage />
-      </div>
-      <div>
-        <MenuBtn />
-      </div>
-    </View>
+        <Hakkimizda/>
+      </ScrollView>
+    </SafeAreaView>
+    
   )
 }
 

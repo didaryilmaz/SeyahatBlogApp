@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-const App = () => {
+function MenuBtn () {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -58,5 +58,4 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
 });
-
-export default App;
+export default  MenuBtn;

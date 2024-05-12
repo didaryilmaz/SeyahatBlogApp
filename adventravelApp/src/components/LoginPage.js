@@ -8,17 +8,17 @@ import {
   Checkbox
 } from 'react-native';
 
-const LoginPage = () =>{
+function LoginPage () {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+  const [rememberMe, setRememberMe] = useState('');
   const handleLogin = () => {
   };
   const handleForgotPassword = () => {
   };
   const handleCreateAccount = () => {
   };
-
+  
   return (
     <View style={styles.container}>
       <TextInput
@@ -99,5 +99,4 @@ const styles = StyleSheet.create({
     textDecorationLine: "underline",
   }
 });
-
-export default  LoginPage;
+export default LoginPage;

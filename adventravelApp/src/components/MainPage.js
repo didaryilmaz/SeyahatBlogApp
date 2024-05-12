@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, Image, Button, TouchableOpacity } from 'react-native';
+import { View, TextInput, StyleSheet, Button, TouchableOpacity } from 'react-native';
+import { FontAwesome } from '@expo/vector-icons';
 
-const App = () => {
-  const [showMenu, setShowMenu] = useState(false);
+function MainPage () {
+  const [MenuBtn, setShowMenu] = useState(false);
 
   const handleMenuPress = () => {
-    setShowMenu(!showMenu);
+    setShowMenu(!MenuBtn);
   };
 
   const handleUserPress = () => {
@@ -27,21 +28,20 @@ const App = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <TouchableOpacity onPress={handleMenuPress}>
-          //<Image source={require('')} style={styles.menuIcon} />
-        </TouchableOpacity>
-        //<Image source={require('')} style={styles.appIcon} />
+          <TouchableOpacity onPress={() => handleMenuPress()}>
+            <FontAwesome name="bars" size={24} color="#000" />
+          </TouchableOpacity>
         <View style={styles.rightButtons}>
           <TouchableOpacity onPress={handleUserPress}>
-            //<Image source={require('')} style={styles.userIcon} />
+            <FontAwesome name="user" size={24} color="#000" />
           </TouchableOpacity>
           <TouchableOpacity onPress={handleNotificationsPress}>
-            //<Image source={require('')} style={styles.notificationsIcon} />
+            <FontAwesome name="bell" size={24} color="#000" />
           </TouchableOpacity>
         </View>
       </View>
       <View style={styles.searchSection}>
-        //<Image source={require('')} style={styles.searchIcon} />
+       <FontAwesome name="search" size={24} color="#000" />    
         <TextInput
           style={styles.searchInput}
           placeholder="Şimdi keşfet"
@@ -107,4 +107,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default MainPage;
+
