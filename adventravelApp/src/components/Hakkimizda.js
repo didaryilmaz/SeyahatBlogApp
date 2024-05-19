@@ -4,7 +4,6 @@ import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
 const Hakkimizda = () => {
   return (
     <ScrollView style={styles.container}>
-      <Image source={require('../assets/logo.png')} style={styles.logo} />
       <Text style={styles.title}>Hakkımızda</Text>
       <Text style={styles.description}>
         Adventravel, seyahat tutkunları tarafından seyahat tutkunları için tasarlanmış bir seyahat blog uygulamasıdır. Amacımız, dünyayı keşfetmeyi seven insanlara ilham verici ve bilgilendirici içerikler sunarak seyahatlerini planlamalarına ve unutulmaz deneyimler yaşamalarına yardımcı olmaktır.
