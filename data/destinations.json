@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "name": "Tropikal Cennet",
+    "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Mükemmel plajları, yemyeşil doğası ve lüks konaklama yerleri ile nihai tropikal cennet kaçamağı.",
+    "rating": 4.8,
+    "duration": "3",
+    "location": "Ege Denizi",
+    "category": "Plajlar"
+  },
+  {
+    "id": "2",
+    "name": "Alp Dağı ",
+    "image": "https://images.unsplash.com/photo-1512273222628-4daea6e55abb?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Alpler'in nefes kesen güzelliğini karla kaplı zirveler ve büyüleyici köylerle çevrili rahat şaletinizden deneyimleyin.",
+    "rating": 4.5,
+    "duration": "4",
+    "location": "İsviçre",
+    "category": "Dağlar"
+  },
+  {
+    "id": "3",
+    "name": "Şehir Kaşifi'nin Rüyası",
+    "image": "https://images.unsplash.com/photo-1546436836-07a91091f160?q=80&w=3548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Hareketli sokaklar, ikonik simge yapılar ve sonsuz kültürel deneyimlerle şehrin canlı enerjisine kendinizi bırakın.",
+    "rating": 4.7,
+    "duration": "2",
+    "location": "İstanbul",
+    "category": "Şehirler"
+  },
+  {
+    "id": "4",
+    "name": "Büyülü Orman Kaçamağı",
+    "image": "https://plus.unsplash.com/premium_photo-1668917805105-2d5d9e49af87?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Bu büyülü orman kaçamağında, devasa ağaçlar, gizli şelaleler ve büyüleyici vahşi yaşam arasında huzuru bulun.",
+    "rating": 4.6,
+    "duration": "5",
+    "location": "Karadeniz",
+    "category": "Ormanlar"
+  },
+  {
+    "id": "5",
+    "name": "Sakin Göl Kıyısı Sığınağı",
+    "image": "https://images.unsplash.com/photo-1535927583620-7940e95a5a05?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFrZSx0cmFucXVpbHx8fHx8fDE3MTEwMzI1MjA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Muhteşem manzaralar ve huzurlu sakinlikle çevrili sakin göl kıyısında dinlenin ve yenilenin.",
+    "rating": 4.9,
+    "duration": "3",
+    "location": "Bolu",
+    "category": "Göller"
+  },
+  {
+    "id": "6",
+    "name": "Kumlu Sahiller Resort",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8YmVhY2gsc2FuZHl8fHx8fHwxNzExMDMyNTg5&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Mükemmel kumlar, berrak sular ve dünya standartlarında imkanlarla sahil lüksünün tadını çıkarın.",
+    "rating": 4.8,
+    "duration": "2",
+    "location": "Antalya",
+    "category": "Plajlar"
+  },
+  {
+    "id": "7",
+    "name": "Muhteşem Dağ Evi",
+    "image": "https://images.unsplash.com/photo-1543768179-656dbc9d9be9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bW91bnRhaW4sbWFqZXN0aWN8fHx8fHwxNzExMDMyNjUw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Muhteşem dağ zirveleri, alp çayırları ve nefes kesen manzaralar arasında lüks içinde rahatlayın.",
+    "rating": 4.7,
+    "duration": "7",
+    "location": "Erzurum",
+    "category": "Dağlar"
+  },
+  {
+    "id": "8",
+    "name": "Metropol Harikaları",
+    "image": "https://images.unsplash.com/photo-1697543117287-53b5ab69742b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2l0eSxtZXRyb3BvbGl0YW58fHx8fHwxNzExMDMyNzM1&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Dünyanın en canlı metropollerinde kültürel zenginlik ve mimari harikaları keşfedin.",
+    "rating": 4.6,
+    "duration": "3",
+    "location": "İstanbul",
+    "category": "Şehirler"
+  },
+  {
+    "id": "9",
+    "name": "Gizemli Orman Sığınağı",
+    "image": "https://images.unsplash.com/photo-1496564692837-ec757c470e07?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Zm9yZXN0LG15c3RpY2FsfHx8fHx8MTcxMTAzMjgyNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Bu büyülü sığınakta eski ormanlar, gizemli harabeler ve saklı harikalar arasında bir yolculuğa çıkın.",
+    "rating": 4.9,
+    "duration": "2",
+    "location": "Türkiye",
+    "category": "Ormanlar"
+  },
+  {
+    "id": "10",
+    "name": "Huzurlu Göl Kaçamağı",
+    "image": "https://images.unsplash.com/photo-1541420937988-702d78cb9fa1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFrZSxzZXJlbmV8fHx8fHwxNzExMDMyODcx&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Şehir hayatının stresinden uzaklaşın ve huzurlu bir göl kıyısında rahatlayın.",
+    "rating": 4.8,
+    "duration": "4",
+    "location": "Sapanca",
+    "category": "Göller"
+  },
+  {
+    "id": "11",
+    "name": "Altın Kumlar Plajı Resort",
+    "image": "https://images.unsplash.com/photo-1535792679781-7a212687bc8f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8YmVhY2gsZ29sZGVufHx8fHx8MTcxMTAzMjkzOQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Altın kumlar, masmavi sular ve lüks deniz kenarı konaklama ile cenneti yaşayın.",
+    "rating": 4.8,
+    "duration": "3",
+    "location": "Antalya",
+    "category": "Plajlar"
+  },
+  {
+    "id": "12",
+    "name": "Alp Macera Konaklama",
+    "image": "https://images.unsplash.com/photo-1521929135277-1891dc05ef4d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bW91bnRhaW4sYWxwaW5lfHx8fHx8MTcxMTAzMjk4OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Heyecan verici açık hava aktiviteleri ve rahat konaklama ile unutulmaz bir Alp macerasına çıkın.",
+    "rating": 4.6,
+    "duration": "3",
+    "location": "Erzurum",
+    "category": "Dağlar"
+  },
+  {
+    "id": "13",
+    "name": "Kültürel Başkentler",
+    "image": "https://images.unsplash.com/photo-1689723744935-60e01c337543?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2l0eSxjdWx0dXJhbHx8fHx8fDE3MTEwMzMwODY&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Dünyanın en büyüleyici kültürel başkentlerinde kültür, tarih ve sanatın canlı dokusunu keşfedin.",
+    "rating": 4.7,
+    "duration": "5",
+    "location": "İstanbul",
+    "category": "Şehirler"
+  },
+  {
+    "id": "14",
+    "name": "Büyülü Koruluk",
+    "image": "https://images.unsplash.com/photo-1541897174996-d68b4a8055c9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Zm9yZXN0LGdyb3ZlfHx8fHx8MTcxMTAzMzEyMQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Bu mistik korulukta eski ağaçlar ve büyülü yaratıklarla dolu büyü ve hayranlık dolu bir diyara adım atın.",
+    "rating": 4.9,
+    "duration": "3",
+    "location": "Karadeniz",
+    "category": "Ormanlar"
+  },
+  {
+    "id": "15",
+    "name": "Huzurlu Dağ Sığınağı",
+    "image": "https://images.unsplash.com/photo-1584812261582-efe582e4c124?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bW91bnRhaW4sdHJhbnF1aWx8fHx8fHwxNzExMDMzMTky&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "description": "Bu ıssız dağ sığınağında yüksek zirveler ve bakir doğa arasında huzur ve sükunet bulun.",
+    "rating": 4.8,
+    "duration": "5",
+    "location": "Artvin",
+    "category": "Dağlar"
+  },
+  {
+    "id": "16",
+    "name": "Deniz Kenarı Sığınağı",
+    "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df",
+    "description": "Nefes kesici deniz manzaraları, bakir plajlar ve lüks konaklama ile sakin bir deniz kenarı sığınağına kaçış yapın.",
+    "rating": 4.7,
+    "duration": "3",
+    "location": "Bodrum",
+    "category": "Plajlar"
+  },
+  {
+    "id": "17",
+    "name": "Alp Göl Kenarı Konaklama",
+    "image": "https://images.unsplash.com/photo-1508899005055-fb1677e7b887?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Muhteşem zirveler ve bakir doğa ile çevrili bir Alp gölünün sakin kıyılarında rahatlayın.",
+    "rating": 4.6,
+    "duration": "3",
+    "location": "Van",
+    "category": "Göller"
+  },
+  {
+    "id": "18",
+    "name": "Kentsel Vaha",
+    "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=3452&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Şehir manzarası içinde huzur dolu bir vaha keşfedin; yeşil bahçeler ve sakin göletler huzur verir.",
+    "rating": 4.8,
+    "duration": "3",
+    "location": "İstanbul",
+    "category": "Şehirler"
+  },
+  {
+    "id": "19",
+    "name": "Fısıldayan Orman Sığınağı",
+    "image": "https://images.unsplash.com/photo-1574288339398-531d55fd84f3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Fısıldayan ağaçların kucakladığı bu sığınakta, eski ağaçlar ve saklı dereler ruhunuzu çağırır.",
+    "rating": 4.9,
+    "duration": "3",
+    "location": "Karadeniz",
+    "category": "Ormanlar"
+  },
+  {
+    "id": "20",
+    "name": "Safir Kıyıları Plaj Resort",
+    "image": "https://plus.unsplash.com/premium_photo-1681223447383-402912b83029?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Dünyaca ünlü olanaklar, safir suları ve bakir kumlarıyla lüks sahil yaşamının doruklarını yaşayın.",
+    "rating": 4.7,
+    "duration": "3",
+    "location": "Çeşme",
+    "category": "Plajlar"
+  }
+]
