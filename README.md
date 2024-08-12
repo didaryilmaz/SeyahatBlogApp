@@ -27,6 +27,22 @@ Başlamadan önce aşağıdaki gereksinimleri karşıladığınızdan emin olun:
 #### Kurulum
 Projeyi yüklemek ve çalıştırmak için şu adımları izleyin:
 
+1.Bağımlılıkları yükleyin:
+```
+npm install
+```
+2.Uygulamayı başlat:
+```
+ npx expo start
+```
+Çıktıda, uygulamayı bir pencerede açma seçeneklerini bulacaksınız.
+
+- development build
+- Android emulator
+- iOS simulator
+- Expo Go, Expo ile uygulama geliştirmeyi denemek için sınırlı bir deneme alanı
+Uygulama dizinindeki dosyaları düzenleyerek geliştirmeye başlayabilirsiniz . Bu proje dosya tabanlı yönlendirme kullanır .
+
 Projeyi yerele klonla:
 ```
 git clone https://github.com/didaryilmaz/SeyahatBlogApp.git
