@@ -6,7 +6,7 @@
 Adventravel, seyahat tutkunlarını bir araya getiren ve seyahat deneyimlerini paylaşmalarına olanak tanıyan bir mobil uygulamadır. Kullanıcılar, bu platform aracılığıyla kendi seyahat bloglarını oluşturabilir ve yönetebilir, aynı zamanda diğer blogları inceleyerek seyahat ipuçları ve önerilerinden faydalanabilirler.
 
 ## Uygulama içi ekran görüntüleri
-<img ![Didar Yılmaz - 215541031](https://github.com/user-attachments/assets/f08e788d-6e26-44a3-9cf6-0c7a211e468b)>
+![Didar Yılmaz - 215541031](https://github.com/user-attachments/assets/f08e788d-6e26-44a3-9cf6-0c7a211e468b)
 
 ## Özellikler
 
