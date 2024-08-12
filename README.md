@@ -10,25 +10,24 @@ Adventravel, seyahat tutkunlarını bir araya getiren ve seyahat deneyimlerini p
 
 ## Özellikler
 
-### Detaylı Harita Görselleştirmesi:
-Ülkelerin Hava Kalite Endeks değerleri detaylı olarak interaktif bir harita üzerinde gösterilir. Kullanıcılar, değerine göre ülkelerin hava kalite endeks gruplandırılmasını gözlemleyebilir.
-
-### Graf Veri Modeli ile Görselleştirme:
-Ülkelerin Hava Kalite Endeks değerlerine göre gruplandırılmasını anlamak için graf modeli kullanılır. Hava kalite endeks değerleri kenar yapısı ile, ülkeler ise düğüm yapısı ile görselleştirilir. Kullanıcılar, bu model sayesinde ülkelerin hava kalite endeks sıralamalarını daha iyi analiz edebilir.
+- Kendi seyahat deneyimlerinizi paylaşın.
+- Seyahat önerileri ve ipuçları keşfedin.
+- Blog sayfalarını inceleyin.
 
 ## Başlangıç
 
 #### Gereklilikler
 Başlamadan önce aşağıdaki gereksinimleri karşıladığınızdan emin olun:
 
-- Kullandığınız ide'de "Live Server" eklentisi kurulu olmalı
+- Geliştirme makinenize npm kurulu olmalıdır.
 - Node.js (includes npm)
-- Bu projeyi bilgisayarınıza klonlamalısınız.
+- Bu deponun kopyasını yerel makinenize kopyalayın.
+- Uygun tablolar ve yapılandırmaya sahip Firebase veritabanı.
 
 #### Kurulum
 Projeyi yüklemek ve çalıştırmak için şu adımları izleyin:
 
 Projeyi yerele klonla:
 ```
-git clone https://github.com/didaryilmaz/AirQuality.git
+git clone https://github.com/didaryilmaz/SeyahatBlogApp.git
 ```
