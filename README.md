@@ -1,4 +1,4 @@
-# AdvenTravel
+# AdvenTravel Mobil App
 
 ## Genel Bakış
 
